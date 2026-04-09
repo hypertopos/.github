@@ -2,7 +2,7 @@
 
 **Your data has shape. We help AI agents find it.**
 
-hypertopos turns relational data into navigable geometric space. Every entity gets a polygon built from its relationships — and that shape reveals anomalies, drift, clusters, and structure that SQL cannot see.
+hypertopos turns relational data into a navigable geometric space. Each entity is positioned based on its relationships, revealing anomalies, drift, clusters, and structural patterns that are hard to see through queries alone.
 
 ## Packages
 
