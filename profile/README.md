@@ -8,9 +8,9 @@ hypertopos turns relational data into navigable geometric space. Every entity ge
 
 | Package | What it does | Install |
 |---------|-------------|---------|
-| [**hypertopos-py**](https://github.com/hypertopos/hypertopos-py) | Core library — 12 navigation primitives, Arrow IPC storage, unsupervised detection | `pip install hypertopos` |
-| [**hypertopos-mcp**](https://github.com/hypertopos/hypertopos-mcp) | 55 MCP tools — AI agents explore spheres through geometry, not SQL | `pip install hypertopos-mcp` |
-| [**hypertopos-skills**](https://github.com/hypertopos/hypertopos-skills) | 8 agent playbooks — investigation, exploration, fraud detection, sphere design | `npx skills add hypertopos/hypertopos-skills` |
+| [**hypertopos-py**](https://github.com/hypertopos/hypertopos-py) | Shapes your data into geometry AI agents can walk through — clusters, anomalies, trajectories emerge on their own | `pip install hypertopos` |
+| [**hypertopos-mcp**](https://github.com/hypertopos/hypertopos-mcp) | Your agent opens a sphere and navigates it like a map — no queries, no schemas, just geometry | `pip install hypertopos-mcp` |
+| [**hypertopos-skills**](https://github.com/hypertopos/hypertopos-skills) | Plug-and-play agent expertise — from first contact with a sphere to full fraud investigation in minutes | `npx skills add hypertopos/hypertopos-skills` |
 
 ## Links
 
