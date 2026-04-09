@@ -12,7 +12,9 @@ hypertopos turns relational data into navigable geometric space. Every entity ge
 | [**hypertopos-mcp**](https://github.com/hypertopos/hypertopos-mcp) | Your agent opens a sphere and navigates it like a map — no queries, no schemas, just geometry | `pip install hypertopos-mcp` |
 | [**hypertopos-skills**](https://github.com/hypertopos/hypertopos-skills) | Plug-and-play agent expertise — from first contact with a sphere to full fraud investigation in minutes | `npx skills add hypertopos/hypertopos-skills` |
 
-## Links
+## Quick Start
 
-- [hypertopos.com](https://hypertopos.com)
-- [DOI: 10.5281/zenodo.19482069](https://doi.org/10.5281/zenodo.19482069)
+```bash
+pip install hypertopos
+hypertopos build --config sphere.yaml --output my_sphere/
+```
