@@ -1,20 +1,29 @@
 # hypertopos
 
-**Your data has shape. We help AI agents find it.**
+Understand the structure of your data — without training machine learning models.
 
-hypertopos turns relational data into a navigable geometric space. Each entity is positioned based on its relationships, revealing anomalies, drift, clusters, and structural patterns that are hard to see through queries alone.
+hypertopos turns relational data into a geometric space where patterns, anomalies and relationships become directly observable.
 
-## Packages
+## The stack
 
-| Package | What it does | Install |
-|---------|-------------|---------|
-| [**hypertopos-py**](https://github.com/hypertopos/hypertopos-py) | Shapes your data into geometry AI agents can walk through — clusters, anomalies, trajectories emerge on their own | `pip install hypertopos` |
-| [**hypertopos-mcp**](https://github.com/hypertopos/hypertopos-mcp) | Your agent opens a sphere and navigates it like a map — no queries, no schemas, just geometry | `pip install hypertopos-mcp` |
-| [**hypertopos-skills**](https://github.com/hypertopos/hypertopos-skills) | Plug-and-play agent expertise — from first contact with a sphere to full fraud investigation in minutes | `npx skills add hypertopos/hypertopos-skills` |
+### [hypertopos-py](https://github.com/hypertopos/hypertopos-py)
 
-## Quick Start
+Core engine. Transforms relational data into a geometric space where entities become coordinates, relationships become structure, and distance becomes signal.
 
-```bash
-pip install hypertopos
-hypertopos build --config sphere.yaml --output my_sphere/
-```
+### [hypertopos-mcp](https://github.com/hypertopos/hypertopos-mcp)
+
+Agent interface. Exposes the geometric space as MCP tools — AI agents navigate, inspect, and reason about data structure directly.
+
+### [hypertopos-skills](https://github.com/hypertopos/hypertopos-skills)
+
+Investigation workflows. Structured behaviors that guide agents through real tasks: anomaly triage, fraud investigation, drift monitoring.
+
+## How it fits together
+
+Data → geometry ([hypertopos-py](https://github.com/hypertopos/hypertopos-py)) → tools ([hypertopos-mcp](https://github.com/hypertopos/hypertopos-mcp)) → reasoning ([hypertopos-skills](https://github.com/hypertopos/hypertopos-skills))
+
+## Status
+
+Research-stage project. Working code, reproducible benchmarks, active development. API may change.
+
+`pip install hypertopos`
