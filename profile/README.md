@@ -1,8 +1,19 @@
 # hypertopos
 
-Understand the structure of your data — without training machine learning models.
+A behavioral feature layer for graph and temporal data.
 
-hypertopos turns relational data into a geometric space where patterns, anomalies and relationships become directly observable.
+hypertopos turns relational data into a geometric coordinate space where:
+- entities become positions
+- relationships become structure
+- behavior becomes movement
+- anomalies become distance from the population
+
+This layer sits between raw data and downstream systems:
+- for exploration (analysts, agents)
+- for feature generation (ML pipelines)
+- for monitoring (drift, regime change)
+
+No model training required.
 
 ## The stack
 
