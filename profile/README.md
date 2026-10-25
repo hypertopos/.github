@@ -25,7 +25,7 @@ Core engine. Builds a sphere from a YAML description and stores it as Lance data
 
 ### [hypertopos-mcp](https://github.com/hypertopos/hypertopos-mcp)
 
-Agent interface. Exposes the sphere as MCP tools — AI agents navigate, inspect, and reason about data structure directly. Runs as a local stdio server or as a hosted HTTP service with an independent session per connected agent; responses are compact JSON built for an agent's context window.
+Agent interface. Exposes the sphere as MCP tools — AI agents navigate, inspect, and reason about data structure directly. Runs over stdio or local HTTP, with an independent session per connected agent; responses are compact JSON built for an agent's context window.
 
 ### [hypertopos-skills](https://github.com/hypertopos/hypertopos-skills)
 
